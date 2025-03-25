@@ -1,3 +1,4 @@
+console.log("start")
 /* STEP 2: Bind the HEADER and the SECTION elements above to variables */
 const header = document.querySelector("header");
 const section = document.querySelector("section");
