@@ -4,10 +4,11 @@ const section = document.querySelector("section");
 
 // STEP 3a: Create the asynchronous function populate()
 async function populate() {
+    console.log("is pop called>")
     // Introducing JavaScript Object Notation (JSON): https://json.org/
     // STEP 4a: Create i-scream.json file with companyName, headOffice, established, active, topFlavors(name, calories, type, ingredients, image) */
     // STEP 4b: Store the URL of a JSON file in a variable */
-    const url = "https://justinlogue.github.io/Javascript-Lab-3/js.i-scream.json";
+    const url = "https://justinlogue.github.io/Javascript-Lab-3/js/i-scream.json";
     // STEP 5: Use the new URL to create a new request object
     const request = new Request(url);
     // STEP 6: Make a network request with the fetch() function, which returns a Response object
