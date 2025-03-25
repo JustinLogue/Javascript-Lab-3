@@ -12,6 +12,7 @@ async function populate() {
     const url = "https://justinlogue.github.io/Javascript-Lab-3/js/i-scream.json";
     // STEP 5: Use the new URL to create a new request object
     const request = new Request(url);
+    console.log(request);
     // STEP 6: Make a network request with the fetch() function, which returns a Response object
     const response = await fetch(request);
     // STEP 7: Capture the returned Response object and covert to a JSON object using json()
